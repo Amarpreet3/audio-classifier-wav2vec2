@@ -17,8 +17,6 @@ The model was evaluated using audio samples provided by Trebble. The results and
 ## Repository Contents
 
 - `wav2vec.ipynb`: Jupyter notebook containing the code for training, testing, and evaluating the audio classifier.
-- `README.md`: This file, providing an overview of the project.
-- Other relevant scripts and files related to the project.
 
 ## Getting Started
 
@@ -26,7 +24,7 @@ To get started with this project, follow the steps below:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/audio-classifier-wav2vec2.git
+    git clone https://github.com/Amarpreet3/audio-classifier-wav2vec2.git
     cd audio-classifier-wav2vec2
     ```
 
@@ -48,7 +46,6 @@ The project requires the following dependencies:
 - Jupyter Notebook
 - PyTorch
 - Transformers
-- Other dependencies specified in `requirements.txt`
 
 ## Results
 
