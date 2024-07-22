@@ -9,7 +9,16 @@ The dataset used for training, testing, and evaluation can be found on Kaggle: [
 ## Model Training
 
 Due to the extensive time required for training, the model was trained on only 5% of the dataset. The model used for this task is Wav2Vec 2.0, a powerful framework for audio classification tasks.
+## Feature Selection
 
+The following feature selection methods were used in this project:
+
+1. `extract_phoneme_features`: Extracts phoneme features using Mel-Frequency Cepstral Coefficients (MFCCs).
+2. `analyze_prosody`: Analyzes prosody features such as pitch, tempo, and root mean square (RMS).
+3. `detect_pauses`: Detects unnatural pauses in speech by identifying periods of silence.
+4. `extract_background_noise`: Extracts background noise features like zero-crossing rate and spectral centroid.
+5. `identify_clicks_and_artifacts`: Identifies click sounds and artifacts in the audio.
+   
 ## Evaluation
 
 The model was evaluated using audio samples provided by Trebble. The results and performance metrics of the evaluation are included in this repository.
